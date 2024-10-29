@@ -1,0 +1,122 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 170px;
+    gap: 50px;
+}
+
+.about-title {
+    position: relative;
+    text-align: center;
+}
+
+.about-title h1 {
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about-sections {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about-left {
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-left img {
+    height: 350px;
+    width: auto;
+    transform: translateX(-20px);
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-para {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about-para p{
+    font-size: 22px;
+    font-weight:500;
+}
+
+.about-skills {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-skill {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.about-skill p {
+    font-size: 20px;
+    width: 150px; /* Fixed width for consistency */
+}
+
+.about-skill hr {
+    border: none;
+    width: 100%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF);
+}
+
+.about-achievements {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.about-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s ease;
+}
+
+.about-achievement h1 {
+    font-size: 36px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.about-achievement p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about-skill:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.about-achievement:hover {
+    transition: 0.5s;
+    transform: scale(1.12);
+}
+
+.main {
+    display: flex;
+    gap: 50px;
+}
+

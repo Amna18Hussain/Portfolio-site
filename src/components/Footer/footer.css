@@ -1,0 +1,53 @@
+
+
+.footer {
+    background-color: #110f0f;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-text {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.footer-contact {
+    width: 100%;
+    font-size: 14px;
+    color: #ccc;
+    margin: 0;
+}
+
+/* Responsive styling */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px 15px;
+    }
+    .footer-text {
+        font-size: 16px;
+    }
+    .footer-contact {
+        font-size: 13px;
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+    .footer {
+        padding: 10px 10px;
+    }
+    .footer-text {
+        font-size: 14px;
+    }
+    .footer-contact {
+        font-size: 12px;
+    }
+}
